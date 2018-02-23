@@ -341,3 +341,230 @@
   }
 
   /* Main Body Begins Here =====================================================*/
+
+body{
+  width: 970px;
+}
+
+#globe{
+  position: relative;
+  z-index: 2; 
+  display: inline-block;
+}
+
+h1{
+  display:inline-block;
+  vertical-align: top;
+  line-height: 50px;
+  font-size: 48px;
+  font-weight: normal;
+  font-family: arial;
+}
+
+.bluebar{
+  background:linear-gradient(rgb(34,101,158), rgb(81,131,173), rgb(34,101,158));
+  display: block;
+  color: white;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: arial;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+  bottom: 60px;
+}
+
+h3{
+  color: rgb(34,101,158); 
+  font-weight: bold;
+  font-family: arial;
+  margin-bottom: 0px;
+  /* line-height: 12px; */
+}
+
+.darkblue{
+  color: rgb(34,101,158); 
+}
+
+.lightblue{
+  color: rgb(0,192,233);
+  font-weight: bold;
+}
+
+.wrapper{
+  background: linear-gradient(
+    rgb(227,227,227),
+    white 15%);
+  margin-top: -90px;
+  font-family: arial;
+}
+
+.leftbox{
+  width:200px;
+  display: inline-block;
+}
+
+.left1{
+  margin-top:20px;  
+  font-weight: bold;
+  font-family: arial;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(216,216,216);
+  border-bottom-width: 2px;
+}
+
+.red{
+  color:rgb(217,35,29);
+}
+
+.interconnected{
+  font-size: 14px;
+}
+
+.watchbutton{
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgb(96,150,194),rgb(38,104,159));
+  height:25px;
+  font-weight: normal;
+  font-size:16px;
+  padding-top:10px;
+  border-radius:5px;
+  margin: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.resourcebutton{
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgb(234,171,81),rgb(240,115,0));
+  height:25px;
+  font-weight: normal;
+  font-size:16px;
+  padding-top:10px;
+  border-radius:5px;
+  margin: 5px;
+  box-shadow: 1px 1px 5px black;
+}
+
+#background{
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.foreground{
+  position: relative;
+  z-index: 2;
+  bottom: 280px;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+.learnbutton{
+  background: linear-gradient(rgb(133,208,233), rgb(0,192,233));
+  box-shadow: 1px 1px 5px black;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 25px;
+  padding-top: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.arrows{
+  font-size:12px;
+}
+.arrow1{
+  color: rgb(127,220,234);
+}
+
+.arrow2{
+  color: rgb(197,239,246);
+}
+
+.rightbox{
+  display: inline-block;
+  width: 700px;
+  vertical-align: top;
+  margin-left: 50px;
+  font-size:14px;
+}
+
+.callbar{
+  border-bottom-style: solid;
+  border-bottom-color: rgb(216,216,216);
+  border-bottom-width: 2px;
+}
+
+.homegroup{
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+
+#phone{
+  margin-left: 450px;
+}
+
+.contacts{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.small{
+  font-size: 10px;
+}
+
+#downtext{
+  position: relative;
+  bottom:3px;
+}
+
+#phonenum{
+  font-size: 22px;
+  font-family: arial;
+  line-height: 20px;
+}
+
+.mainbox {
+  display: inline-block;
+}
+
+.mainbox li{
+  margin-bottom: 5px;
+}
+
+#cycle{
+  margin-left: 200px; 
+}
+
+#trifecta{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.bottombox{
+  border-color: rgb(0,192,233);
+  border-width: 4px;
+  border-style: solid;
+  border-bottom-width: 0px;
+}
+
+.bottomtext{
+  display: inline-block;
+  width: 540px;
+  margin-left: 10px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
